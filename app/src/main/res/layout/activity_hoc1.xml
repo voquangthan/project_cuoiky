@@ -21,6 +21,20 @@
 
     </FrameLayout>
 
+    <ImageView
+        android:id="@+id/imageContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/image1"
+        app:layout_constraintBottom_toTopOf="@+id/framefooter1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameheader1"
+        app:layout_constraintVertical_bias="0.277" />
+
     <FrameLayout
         android:id="@+id/framefooter1"
         android:layout_width="408dp"

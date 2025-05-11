@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +17,8 @@ Button button_hoc;
 Button button_choi;
 Button button_danhgia;
 Button button_thidau;
+ImageView Image_content;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +35,10 @@ Button button_thidau;
                 startActivity(intent);
 
             }
+            public void setImage(int imageResId) {
+                Image_content.setImageResource(imageResId);
+            }
         });
+
     }
 }
