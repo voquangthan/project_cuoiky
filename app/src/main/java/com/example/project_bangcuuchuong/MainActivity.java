@@ -1,5 +1,6 @@
 package com.example.project_bangcuuchuong;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -17,7 +18,6 @@ Button button_hoc;
 Button button_choi;
 Button button_danhgia;
 Button button_thidau;
-ImageView Image_content;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ ImageView Image_content;
         button_choi=findViewById(R.id.btnmain_choi);
         button_danhgia=findViewById(R.id.btnmain_danhgia);
         button_thidau=findViewById(R.id.btnmain_thidau);
+
         button_hoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,10 +36,9 @@ ImageView Image_content;
                 startActivity(intent);
 
             }
-            public void setImage(int imageResId) {
-                Image_content.setImageResource(imageResId);
-            }
+
         });
 
     }
+
 }

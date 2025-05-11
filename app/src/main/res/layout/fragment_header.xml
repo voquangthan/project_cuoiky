@@ -12,7 +12,7 @@
 
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/hoc_back"
         android:layout_width="71dp"
         android:layout_height="49dp"
         android:layout_marginTop="44dp"
@@ -50,7 +50,7 @@
         android:textColor="#7D5E4A"
         android:textSize="40dp"
         app:layout_constraintEnd_toStartOf="@+id/button8"
-        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintStart_toEndOf="@+id/hoc_back"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
