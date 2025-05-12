@@ -19,13 +19,15 @@ public class HeaderFragment extends Fragment {
         Button_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (getActivity().getSupportFragmentManager().getBackStackEntryCount() > 0) {
+                if(getActivity().getSupportFragmentManager().getBackStackEntryCount()>0){
                     getActivity().getSupportFragmentManager().popBackStack();
-                } else {
+                }
+                else{
                     getActivity().finish();
                 }
             }
         });
+
         return view;
     }
 }

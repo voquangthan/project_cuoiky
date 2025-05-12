@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Project_bangcuuchuong"
         tools:targetApi="31">
         <activity
+            android:name=".Quiz_Activity"
+            android:exported="false" />
+        <activity
             android:name=".HocActivity1"
             android:exported="false" />
         <activity
