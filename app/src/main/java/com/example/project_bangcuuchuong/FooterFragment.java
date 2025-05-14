@@ -1,6 +1,7 @@
 package com.example.project_bangcuuchuong;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,6 +18,7 @@ public class FooterFragment extends Fragment {
 
     Button Btn1, Btn2, Btn3, Btn4, Btn5, Btn6, Btn7, Btn8, Btn9, Btn10;
     ImageView Hinhanh;
+
 
     public FooterFragment() {
         // Constructor rỗng là bắt buộc
@@ -40,8 +42,8 @@ public class FooterFragment extends Fragment {
         Btn8 = view.findViewById(R.id.btn8);
         Btn9 = view.findViewById(R.id.btn9);
         Btn10 = view.findViewById(R.id.btn10);
-        Hinhanh = view.findViewById(R.id.image_content); // Ánh xạ ImageView để hiển thị ảnh
 
+        Hinhanh = view.findViewById(R.id.image_content); // Ánh xạ ImageView để hiển thị ảnh
         // Xử lý sự kiện click của Btn1
         Btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,6 +93,7 @@ public class FooterFragment extends Fragment {
                 Hinhanh.setImageResource(R.drawable.anh8);
             }
         });
+
         Btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,6 +1,7 @@
 package com.example.project_bangcuuchuong;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,7 +31,6 @@ public class HocActivity1 extends AppCompatActivity {
                 .add(R.id.frameheader1, new HeaderFragment())  // Thêm HeaderFragment vào layout
                 .add(R.id.framefooter1, new FooterFragment())  // Thêm FooterFragment vào layout
                 .commit();
-
 
     }
 }
