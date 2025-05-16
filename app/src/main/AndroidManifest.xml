@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Project_bangcuuchuong"
         tools:targetApi="31">
         <activity
+            android:name=".About_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".term_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Setting_Activitymain"
+            android:exported="false" />
+        <activity
+            android:name=".choi_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_choi"
+            android:exported="false" />
+        <activity
             android:name=".Quiz_Activity"
             android:exported="false" />
         <activity

@@ -15,6 +15,9 @@ public class Quiz_Activity extends AppCompatActivity {
     TextView Cauhoi;
     TextView Hienthisocau;
     TextView Demsocausaivadung;
+    TextView Ketqua1;
+    TextView Ketqua2;
+    TextView Ketqua3;
     int count=0;
 
     int causai=0;
@@ -31,6 +34,9 @@ public class Quiz_Activity extends AppCompatActivity {
         Btn_dapan2 = findViewById(R.id.btndapan2);
         Btn_dapan3 = findViewById(R.id.btndapan3);
         Btn_dapan4 = findViewById(R.id.btndapan4);
+        Ketqua1=findViewById(R.id.ketqua1);
+        Ketqua2=findViewById(R.id.ketqua2);
+        Ketqua3=findViewById(R.id.ketqua3);
         Btn_quiz_back = findViewById(R.id.btn_quiz_back);
         Cauhoi = findViewById(R.id.cauhoi);
         Hienthisocau=findViewById(R.id.hienthisocau);
@@ -54,9 +60,14 @@ public class Quiz_Activity extends AppCompatActivity {
                     clickedButton.setEnabled(false);
                 }
 
-
                 Demsocausaivadung.setText(caudung +":" + causai);
+                if(caudung==10){
+                    Ketqua1.setVisibility(view.VISIBLE);
+                    Ketqua2.setVisibility(view.VISIBLE);
+                    Ketqua3.setVisibility(view.VISIBLE);
+                    Ketqua3.setText(caudung+":"+causai);
 
+                }
             }
         };
 

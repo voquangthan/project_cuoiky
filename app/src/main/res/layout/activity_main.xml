@@ -7,6 +7,15 @@
     android:layout_height="match_parent"
     android:background="@drawable/anhmain"
     tools:context=".MainActivity">
+    <View
+        android:id="@+id/outside_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/btnmain_share"
@@ -112,5 +121,66 @@
         app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/click_setting_main"
+        android:visibility="gone"
+        android:layout_width="300dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="172dp"
+        android:background="#FFEBD0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_policy"
+        android:layout_width="286dp"
+        android:visibility="gone"
+        android:layout_height="53dp"
+        android:layout_marginTop="184dp"
+        android:text="privacy policy"
+        android:textSize="22dp"
+        app:backgroundTint="#F5CE93"
+        app:icon="@drawable/icon_policy"
+        app:iconSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_term"
+        android:layout_width="286dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="260dp"
+        app:backgroundTint="#F5CE93"
+        android:visibility="gone"
+        android:text="term condition"
+        android:textSize="22dp"
+        app:icon="@drawable/icon_policy"
+        app:iconSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="286dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="336dp"
+        android:text="About"
+        android:textSize="22dp"
+        android:visibility="gone"
+        app:backgroundTint="#F5CE93"
+        app:icon="@drawable/icon_about"
+        app:iconSize="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
