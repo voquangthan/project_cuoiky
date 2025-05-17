@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Project_bangcuuchuong"
         tools:targetApi="31">
         <activity
+            android:name=".Kho_choi_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Trungbinh_choi_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".De_choi_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Choi_Activity"
+            android:exported="false" />
+        <activity
             android:name=".About_Activity"
             android:exported="false" />
         <activity

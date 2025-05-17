@@ -44,7 +44,12 @@ public class Quiz_Activity extends AppCompatActivity {
 
         loadNewQuestion();
 
-        Btn_quiz_back.setOnClickListener(v -> finish());
+        Btn_quiz_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         View.OnClickListener answerClickListener = new View.OnClickListener() {
             @Override
