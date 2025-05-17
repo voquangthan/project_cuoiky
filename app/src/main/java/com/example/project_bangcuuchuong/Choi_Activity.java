@@ -39,23 +39,10 @@ public class Choi_Activity extends AppCompatActivity {
         De.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(Choi_Activity.this, De_choi_Activity.class);
+                Intent intent= new Intent(Choi_Activity.this, ChoiActivity_modede.class);
                 startActivity(intent);
             }
         });
-        Trungbinh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent= new Intent(Choi_Activity.this, Trungbinh_choi_Activity.class);
-                startActivity(intent);
-            }
-        });
-        Kho.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent= new Intent(Choi_Activity.this, Kho_choi_Activity.class);
-                startActivity(intent);
-            }
-        });
+
     }
 }

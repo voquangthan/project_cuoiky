@@ -37,7 +37,7 @@ public class Quiz_Activity extends AppCompatActivity {
         Ketqua1=findViewById(R.id.ketqua1);
         Ketqua2=findViewById(R.id.ketqua2);
         Ketqua3=findViewById(R.id.ketqua3);
-        Btn_quiz_back = findViewById(R.id.btn_quiz_back);
+        Btn_quiz_back = findViewById(R.id.btn_back);
         Cauhoi = findViewById(R.id.cauhoi);
         Hienthisocau=findViewById(R.id.hienthisocau);
         Demsocausaivadung=findViewById(R.id.demsocausaivadung);
@@ -83,7 +83,7 @@ public class Quiz_Activity extends AppCompatActivity {
     }
     void demsocau(){
         count++;
-        Hienthisocau.setText("Số 1  "+count+"/10");
+        Hienthisocau.setText(count+"/10");
 
     }
     void loadNewQuestion() {

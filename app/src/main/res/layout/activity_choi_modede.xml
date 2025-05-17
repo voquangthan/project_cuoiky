@@ -3,12 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@drawable/anhmain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".De_choi_Activity">
+    android:background="@drawable/anhmain"
+    tools:context=".ChoiActivity_modede">
+
     <Button
-        android:id="@+id/btn_quiz_back"
+        android:id="@+id/btn_back_mode1"
         android:layout_width="71dp"
         android:layout_height="49dp"
         android:layout_marginTop="36dp"
@@ -20,37 +21,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/kocoj"
+        android:id="@+id/hienthisocau_mode1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="Dễ"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/btn_quiz_back"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/hienthisocau2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="32dp"
         android:text="Số 1 - 1/10"
         android:textSize="30dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="@+id/btn_quiz_back"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/demsocausaivadung"
+        android:id="@+id/demsocausaivadung_mode1"
         android:layout_width="74dp"
         android:layout_height="42dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginTop="32dp"
         android:text="0 : 0"
         android:textAlignment="center"
         android:textSize="30dp"
@@ -59,61 +45,58 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btndapan1"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="412dp"
-        android:background="@drawable/button_quez"
-        app:backgroundTint="@color/vang"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btndapan2"
+        android:id="@+id/btndapan1_mode1"
         android:layout_width="150dp"
         android:layout_height="80dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="404dp"
         android:background="@drawable/button_quez"
-        app:backgroundTint="@color/vang"
         android:textSize="30dp"
-        app:layout_constraintEnd_toStartOf="@+id/btndapan4"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:backgroundTint="@color/vang"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btndapan1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btndapan4"
+        android:id="@+id/btndapan2_mode1"
         android:layout_width="150dp"
         android:layout_height="80dp"
-        android:layout_marginStart="212dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="512dp"
         android:background="@drawable/button_quez"
-        app:backgroundTint="@color/vang"
         android:textSize="30dp"
+        app:backgroundTint="@color/vang"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btndapan3" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btndapan3"
+        android:id="@+id/btndapan4_mode1"
         android:layout_width="150dp"
         android:layout_height="80dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="412dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginEnd="36dp"
         android:background="@drawable/button_quez"
-        app:backgroundTint="@color/vang"
         android:textSize="30dp"
-        app:layout_constraintStart_toEndOf="@+id/btndapan1"
+        app:backgroundTint="@color/vang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btndapan3_mode1"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/button_quez"
+        android:textSize="30dp"
+        app:backgroundTint="@color/vang"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/cauhoi"
+        android:id="@+id/cauhoi_mode1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="136dp"
         android:text="TextView"
         android:textSize="45dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -122,22 +105,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/ketqua1"
+        android:id="@+id/ketqua1_mode1"
         android:layout_width="300dp"
         android:layout_height="240dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="116dp"
         android:background="#FFEBD0"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/ketqua2"
+        android:id="@+id/ketqua2_mode1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="160dp"
         android:visibility="gone"
         android:text="kết quả của bạn là "
         android:textSize="25dp"
@@ -147,16 +130,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/ketqua3"
+        android:id="@+id/ketqua3_mode1"
         android:layout_width="wrap_content"
+        android:visibility="gone"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="244dp"
         android:text="TextView"
         android:textSize="30dp"
-        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
