@@ -33,8 +33,7 @@ TextView Click_setting_main;
         setContentView(R.layout.activity_main);
         Button_hoc=findViewById(R.id.btnmain_hoc);
         Button_choi=findViewById(R.id.btnmain_choi);
-        Button_danhgia=findViewById(R.id.btnmain_danhgia);
-        Button_thidau=findViewById(R.id.btnmain_thidau);
+
         Button_about=findViewById(R.id.btn_about);
         Button_policy=findViewById(R.id.btn_policy);
         Button_term=findViewById(R.id.btn_term);

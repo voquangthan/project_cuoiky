@@ -62,7 +62,7 @@
         android:id="@+id/btnmain_hoc"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="268dp"
         android:background="@drawable/button_chung"
         android:text="Học"
         app:backgroundTint="#F5CE93"
@@ -70,39 +70,7 @@
         app:iconGravity="textTop"
         app:iconSize="50dp"
         app:layout_constraintEnd_toStartOf="@+id/btnmain_choi"
-        app:layout_constraintHorizontal_bias="0.835"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnmain_thidau"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/button_chung"
-        android:text="Thi đấu"
-        app:backgroundTint="#F5CE93"
-        app:icon="@drawable/icon_cup"
-        app:iconGravity="textTop"
-        app:iconSize="50dp"
-        app:layout_constraintEnd_toStartOf="@+id/btnmain_danhgia"
-        app:layout_constraintHorizontal_bias="0.797"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnmain_hoc" />
-
-    <Button
-        android:id="@+id/btnmain_danhgia"
-        android:layout_width="130dp"
-        android:layout_height="130dp"
-        android:layout_marginTop="408dp"
-        android:background="@drawable/button_chung"
-        android:text="Đánh giá"
-        app:backgroundTint="#F5CE93"
-        app:icon="@drawable/icon_like"
-        app:iconGravity="textTop"
-        app:iconSize="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintHorizontal_bias="0.642"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -110,7 +78,7 @@
         android:id="@+id/btnmain_choi"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="268dp"
         android:background="@drawable/button_chung"
         android:text="Chơi"
         app:backgroundTint="#F5CE93"
@@ -118,7 +86,7 @@
         app:iconGravity="textTop"
         app:iconSize="50dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

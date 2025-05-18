@@ -43,6 +43,20 @@ public class Choi_Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Trungbinh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(Choi_Activity.this, ChoiActivity_modetrungbinh.class);
+                startActivity(intent);
+            }
+        });
+        Kho.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(Choi_Activity.this, choiActivity_modekho.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
